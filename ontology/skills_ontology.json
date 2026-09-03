@@ -1,0 +1,92 @@
+{
+  "categories": {
+    "Programming Languages": {
+      "skills": {
+        "Python": {"synonyms": ["python3", "py"], "related": ["Data Science", "Machine Learning", "Django", "Flask"]},
+        "Java": {"synonyms": ["core java", "j2ee"], "related": ["Spring", "Spring Boot", "Kotlin"]},
+        "JavaScript": {"synonyms": ["js", "ecmascript"], "related": ["TypeScript", "React", "Node.js"]},
+        "TypeScript": {"synonyms": ["ts"], "related": ["JavaScript", "React", "Angular"]},
+        "C++": {"synonyms": ["cpp", "c plus plus"], "related": ["C", "DSA", "System Design"]},
+        "C": {"synonyms": [], "related": ["C++", "Embedded Systems"]},
+        "SQL": {"synonyms": ["structured query language"], "related": ["PostgreSQL", "MySQL", "Database Design"]},
+        "R": {"synonyms": [], "related": ["Statistics", "Data Science"]},
+        "Go": {"synonyms": ["golang"], "related": ["Microservices", "Docker", "Kubernetes"]},
+        "Scala": {"synonyms": [], "related": ["Spark", "Java", "Big Data"]}
+      }
+    },
+    "Machine Learning": {
+      "skills": {
+        "Machine Learning": {"synonyms": ["ml"], "related": ["Deep Learning", "Scikit-learn", "Statistics"]},
+        "Deep Learning": {"synonyms": ["dl", "neural networks"], "related": ["PyTorch", "TensorFlow", "CNN", "RNN"]},
+        "NLP": {"synonyms": ["natural language processing"], "related": ["Transformers", "spaCy", "BERT", "LLM"]},
+        "Computer Vision": {"synonyms": ["cv"], "related": ["CNN", "OpenCV", "Image Processing", "CLIP"]},
+        "PyTorch": {"synonyms": ["torch"], "related": ["Deep Learning", "TensorFlow"]},
+        "TensorFlow": {"synonyms": ["tf", "keras"], "related": ["Deep Learning", "PyTorch"]},
+        "Scikit-learn": {"synonyms": ["sklearn"], "related": ["Machine Learning", "Python"]},
+        "LLM": {"synonyms": ["large language models", "large language model"], "related": ["NLP", "Transformers", "RAG", "Prompt Engineering", "GenAI"]},
+        "RAG": {"synonyms": ["retrieval augmented generation"], "related": ["LLM", "Vector Databases", "Embeddings"]},
+        "Transformers": {"synonyms": ["transformer architecture"], "related": ["NLP", "BERT", "GPT", "Attention"]},
+        "MLOps": {"synonyms": ["ml ops"], "related": ["Docker", "Kubernetes", "CI/CD", "Model Deployment"]},
+        "Embeddings": {"synonyms": ["vector embeddings", "word embeddings"], "related": ["Vector Databases", "NLP", "Sentence-Transformers"]},
+        "Vector Databases": {"synonyms": ["vector db", "vector store"], "related": ["FAISS", "Milvus", "Pinecone", "Embeddings"]},
+        "Reinforcement Learning": {"synonyms": ["rl"], "related": ["Machine Learning", "Deep Learning"]},
+        "GenAI": {"synonyms": ["generative ai"], "related": ["LLM", "Diffusion Models", "Prompt Engineering"]}
+      }
+    },
+    "Data Engineering": {
+      "skills": {
+        "Data Science": {"synonyms": ["ds"], "related": ["Python", "Statistics", "Machine Learning"]},
+        "Statistics": {"synonyms": ["statistical analysis"], "related": ["Data Science", "R", "Probability"]},
+        "Pandas": {"synonyms": [], "related": ["Python", "Data Science", "NumPy"]},
+        "NumPy": {"synonyms": [], "related": ["Python", "Data Science"]},
+        "Spark": {"synonyms": ["apache spark", "pyspark"], "related": ["Big Data", "Scala", "Hadoop"]},
+        "Big Data": {"synonyms": [], "related": ["Spark", "Hadoop", "Data Engineering"]},
+        "ETL": {"synonyms": ["extract transform load"], "related": ["Data Engineering", "Airflow"]},
+        "Airflow": {"synonyms": ["apache airflow"], "related": ["ETL", "Data Pipelines"]}
+      }
+    },
+    "Databases": {
+      "skills": {
+        "PostgreSQL": {"synonyms": ["postgres"], "related": ["SQL", "Database Design"]},
+        "MySQL": {"synonyms": [], "related": ["SQL", "Database Design"]},
+        "MongoDB": {"synonyms": ["mongo"], "related": ["NoSQL", "Database Design"]},
+        "Redis": {"synonyms": [], "related": ["Caching", "NoSQL"]},
+        "Neo4j": {"synonyms": [], "related": ["Graph Database", "Knowledge Graph"]},
+        "FAISS": {"synonyms": [], "related": ["Vector Databases", "Embeddings"]},
+        "Milvus": {"synonyms": [], "related": ["Vector Databases", "Embeddings"]},
+        "Elasticsearch": {"synonyms": ["elastic"], "related": ["Search", "NoSQL"]}
+      }
+    },
+    "Cloud & DevOps": {
+      "skills": {
+        "AWS": {"synonyms": ["amazon web services"], "related": ["Cloud Computing", "EC2", "S3"]},
+        "GCP": {"synonyms": ["google cloud platform", "google cloud"], "related": ["Cloud Computing", "Colab"]},
+        "Azure": {"synonyms": ["microsoft azure"], "related": ["Cloud Computing"]},
+        "Docker": {"synonyms": ["containerization"], "related": ["Kubernetes", "DevOps"]},
+        "Kubernetes": {"synonyms": ["k8s"], "related": ["Docker", "DevOps", "Microservices"]},
+        "CI/CD": {"synonyms": ["continuous integration", "continuous deployment"], "related": ["DevOps", "Jenkins", "GitHub Actions"]},
+        "Git": {"synonyms": ["version control"], "related": ["GitHub", "GitLab"]}
+      }
+    },
+    "Backend & Web": {
+      "skills": {
+        "FastAPI": {"synonyms": [], "related": ["Python", "REST API", "Backend"]},
+        "Flask": {"synonyms": [], "related": ["Python", "REST API", "Backend"]},
+        "Django": {"synonyms": [], "related": ["Python", "Backend", "REST API"]},
+        "REST API": {"synonyms": ["restful api", "rest apis"], "related": ["Backend", "API Design"]},
+        "Node.js": {"synonyms": ["nodejs", "node"], "related": ["JavaScript", "Backend"]},
+        "React": {"synonyms": ["reactjs", "react.js"], "related": ["JavaScript", "Frontend"]},
+        "Microservices": {"synonyms": [], "related": ["Backend", "Docker", "System Design"]}
+      }
+    },
+    "Core CS": {
+      "skills": {
+        "Data Structures": {"synonyms": ["dsa"], "related": ["Algorithms", "C++", "Python"]},
+        "Algorithms": {"synonyms": [], "related": ["Data Structures", "System Design"]},
+        "System Design": {"synonyms": [], "related": ["Distributed Systems", "Microservices", "Scalability"]},
+        "Distributed Systems": {"synonyms": [], "related": ["System Design", "Microservices"]},
+        "Operating Systems": {"synonyms": ["os"], "related": ["Computer Architecture"]}
+      }
+    }
+  }
+}
