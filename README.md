@@ -4,6 +4,9 @@ NLP-based app that compares a resume against a job description, producing a
 match score and an explainable skill-gap report using embeddings + a
 skill ontology.
 
+<img width="1024" height="1536" alt="Resume JD Matcher" src="https://github.com/user-attachments/assets/8439e451-5779-40e5-8747-1889ee5c7cc5" />
+
+
 ## How it works
 
 1. **Text extraction** — PDF/DOCX/TXT resume parsed via `pdfplumber` / `python-docx`.
@@ -27,14 +30,6 @@ streamlit run streamlit_app.py
 ```
 
 First run downloads the MiniLM embedding model (~90MB), then it's cached locally.
-
-## Deploying to Streamlit Community Cloud
-
-1. Push this folder to a GitHub repo.
-2. Go to https://share.streamlit.io → New app → point it at your repo,
-   branch, and `streamlit_app.py` as the entry point.
-3. Streamlit Cloud installs `requirements.txt` automatically. No GPU needed —
-   MiniLM runs fine on CPU.
 
 ## Extending the ontology
 
